@@ -19,7 +19,7 @@ public class LandingPageController : MonoBehaviour
 
     public QuickMeditationPicker QuickMeditationPicker;
 
-    public OVRRaycaster Canvas;
+    //public OVRRaycaster Canvas;
 
     [Header("Intro Part")]
     public Button CloseBtn;

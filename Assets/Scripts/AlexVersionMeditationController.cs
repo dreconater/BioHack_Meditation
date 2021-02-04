@@ -12,7 +12,7 @@ public class AlexVersionMeditationController : MonoBehaviour
 
     public string VideoSceneName;
 
-    public OVRRaycaster Canvas;
+    //public OVRRaycaster Canvas;
 
     public LargeFileDownloaderExample Downloader;
 
@@ -70,7 +70,7 @@ public class AlexVersionMeditationController : MonoBehaviour
     public void DownloadCustomMeditation(Button onlineBtn, Text progressBar, Slider progressSlider, string videoUrl, int videoId, int voiceId)
     {
         onlineBtn.interactable = false;
-        Canvas.enabled = false;
+        //Canvas.enabled = false;
 
         VideoId = videoId;
         VoiceId = voiceId;
@@ -127,7 +127,7 @@ public class AlexVersionMeditationController : MonoBehaviour
     public void DownloadComplated()
     {
         OnlineButton.interactable = true;
-        Canvas.enabled = true;
+       // Canvas.enabled = true;
     }
 }
 

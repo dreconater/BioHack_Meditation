@@ -24,7 +24,7 @@ public class BrowserView : MonoBehaviour
     public Transform GazePointer;
     public RawImage RawImage;
     private UserAgent _currentUserAgent = UserAgent.mobile;
-    private OVROverlay _overlay;
+    //private OVROverlay _overlay;
 
     /// <summary>
     /// The currently visited url.
@@ -356,7 +356,7 @@ public class BrowserView : MonoBehaviour
     {
         UnityThread.initUnityThread();
         RawImage.GetComponent<Button>().onClick.AddListener(OnClick);
-        _overlay = GetComponent<OVROverlay>();
+        //_overlay = GetComponent<OVROverlay>();
         _rawImageRect = RawImage.GetComponent<RectTransform>();
 
         InitializeAndroidPlugin();
@@ -387,21 +387,21 @@ public class BrowserView : MonoBehaviour
             yield break;
 #endif
             // Wait for surface to be available.
-            while (_overlay.externalSurfaceObject == IntPtr.Zero || _ajc == null)
+           /* while (_overlay.externalSurfaceObject == IntPtr.Zero || _ajc == null)
             {
                 yield return null;
-            }
+            }*/
             Debug.Log("Browser Start!");
             string jniClass = classString.Replace(".", "/"); 
             var pluginClass = AndroidJNI.FindClass(jniClass);
             var surfaceMethodId =
                 AndroidJNI.GetStaticMethodID(pluginClass, "PassStaticSurface", "(Landroid/view/Surface;)V");
 
-            AndroidJNI.CallStaticVoidMethod(pluginClass, surfaceMethodId,
-                new jvalue[] {new jvalue {l = _overlay.externalSurfaceObject}});
+           // AndroidJNI.CallStaticVoidMethod(pluginClass, surfaceMethodId,
+               // new jvalue[] {new jvalue {l = _overlay.externalSurfaceObject}});
 
-            AndroidJNI.DeleteLocalRef(pluginClass);
-            OnGeckoViewReady();
+           // AndroidJNI.DeleteLocalRef(pluginClass);
+            //OnGeckoViewReady();
         }
 
        
@@ -416,14 +416,14 @@ public class BrowserView : MonoBehaviour
             return;
 #endif
             // testing new values 
-            _surfaceWidth = _overlay.externalSurfaceWidth; //(int) _rawImage.rectTransform.rect.width;
+           /* _surfaceWidth = _overlay.externalSurfaceWidth; //(int) _rawImage.rectTransform.rect.width;
             _surfaceHeight = _overlay.externalSurfaceHeight; //(int) (_rawImage.rectTransform.rect.height);
 
             var tempAjc = new AndroidJavaClass(classString);
             _ajc = tempAjc.CallStatic<AndroidJavaObject>("CreateInstance",
                 new object[] {_overlay.externalSurfaceWidth, _overlay.externalSurfaceHeight, UserAgent.mobile.ToString("G") });
             UnityInterface androidPluginCallback = new UnityInterface {BrowserView = this};
-            _ajc.Call("SetUnityBitmapCallback", androidPluginCallback);
+            _ajc.Call("SetUnityBitmapCallback", androidPluginCallback);*/
         }
     
     

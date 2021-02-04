@@ -118,10 +118,10 @@ public class VideoEngine : MonoBehaviour
             GoToMenu();
         }
 
-        if (OVRInput.Get(OVRInput.Button.One))
+        /*if (OVRInput.Get(OVRInput.Button.One))
         {
             GoToMenu();
-        }
+        }*/
 
         if (Input.GetKey(KeyCode.Space))
         {
