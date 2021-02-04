@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alex's Version/AlexVersion_LandingPage.unity
     guid: 5a3b79988c0a606449d03319209662ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alex's Version/AlexVersion_VideoPage.unity
     guid: 71eb0d1d5431e894a828b0f8cbad7894
   - enabled: 0
@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Browser.unity
     guid: 29e18f21bcb1b284dae9caab8474d3da
+  - enabled: 1
+    path: Assets/Scenes/Alex's Version/SteamVersion_LandingPage.unity
+    guid: 795c0440250234a43a3af9999c5aec3b
+  - enabled: 1
+    path: Assets/Scenes/Alex's Version/SteamVersion_VideoPage.unity
+    guid: 6645215fbe3120f428069e7a273b0ef9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8024320e5b1f17d4fb47a53d1a0a70f4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7d6902dacc914ed44bef136e27b6b1c2, type: 2}
