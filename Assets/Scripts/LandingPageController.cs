@@ -19,7 +19,7 @@ public class LandingPageController : MonoBehaviour
 
     public QuickMeditationPicker QuickMeditationPicker;
 
-    //public OVRRaycaster Canvas;
+    public SteamVRInputModule Canvas;
 
     [Header("Intro Part")]
     public Button CloseBtn;

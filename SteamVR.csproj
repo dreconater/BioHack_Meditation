@@ -239,6 +239,8 @@
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDrive.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HoverButton.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR\Pointer.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR\SteamVRInputModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />

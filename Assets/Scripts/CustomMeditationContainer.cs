@@ -14,7 +14,7 @@ public class CustomMeditationContainer : MonoBehaviour
 
     private string[] VideoUrls;
 
-    //public OVRRaycaster Canvas;
+    public SteamVRInputModule Canvas;
 
     public LargeFileDownloaderExample Downloader;
 
@@ -88,7 +88,7 @@ public class CustomMeditationContainer : MonoBehaviour
 
     public void DownloadCustomMeditation(Button onlineBtn, Text progressBar, Slider progressSlider, string videoUrl, bool music, int videoId, int voiceId) {
         onlineBtn.interactable = false;
-        //Canvas.enabled = false;
+        Canvas.enabled = false;
 
         VideoId = videoId;
         VoiceId = voiceId;
@@ -133,6 +133,6 @@ public class CustomMeditationContainer : MonoBehaviour
 
     public void DownloadComplated() {
         OnlineButton.interactable = true;
-       // Canvas.enabled = true;
+        Canvas.enabled = true;
     }
 }
