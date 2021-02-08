@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_6;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_6;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_CCU;CURVEDUI_STEAMVR_INT;CURVEDUI_TMP;CURVEDUI_STEAMVR_2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -60,20 +60,30 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoInfo.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_inventory_paralax.cs" />
     <Compile Include="Assets\Scripts\SettingsPageController.cs" />
     <Compile Include="Assets\Scripts\GeneralMenu.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMP.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\DemoInfo.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIPointerEventData.cs" />
     <Compile Include="Assets\Scripts\CustomMeditationContainer.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_TMPChecker.cs" />
     <Compile Include="Assets\Scripts\UnityThread.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUISettings.cs" />
     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModuleCrosshair.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RiseChildrenOverTime.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_MoveHeartbeat.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveButtonState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\CurvedUICnvasInteractiveChange.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\DisplayUGUI.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\NativeMediaOpen.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\AudioChannelMixer.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\OSXMediaPlayer.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_rotation_anim.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\SphereDemo.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoDisplayUGUI.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_MoveAlong.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\CubemapCube.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\WebGLMediaPlayer.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\StartEndPoint.cs" />
@@ -82,20 +92,32 @@
     <Compile Include="Assets\AVProVideo\Scripts\Components\SubtitlesUGUI.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\ChangeVideoExample.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\AudioOutputManager.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\OptionalDependencyAttribute.cs" />
     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\GazeCrosshairOnOff.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\PlaylistMediaPlayer.cs" />
     <Compile Include="Assets\Scripts\QuickMeditationPicker.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIViveController.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_CameraController.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_AnimateCurvedFillOnStart.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\ButtonListener.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIRaycaster.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\RandomPicker.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_WorldSpaceCursorFollow.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\NGUI\ApplyToTextureWidgetNGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Demo\ToggleKeyboard.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\SampleApp_Multiple.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_CameraRotationOnButtonHeld.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveHapticPulse.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PerlinNoisePosition.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\PlaybackSync.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PickImageFromSet.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PerlinNoiseRotation.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_draggable.cs" />
     <Compile Include="Assets\Scripts\VideoThumbnailContainer.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\ChangeStereoMode.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
@@ -104,10 +126,14 @@
     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModule.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\AutoRotate.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoEvent.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_WorldSpaceMouseMultipleCanvases.cs" />
     <Compile Include="Assets\Scripts\AlexVersionLandingPageController.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoPlayer.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIHandSwitcher.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\NullMediaPlayer.cs" />
     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\CubeListener.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUILaserBeam.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ShowParentCoordinates.cs" />
     <Compile Include="Assets\Scripts\SwitchUserSession.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\UpdateStereoMaterial.cs" />
@@ -117,6 +143,7 @@
     <Compile Include="Assets\AVProVideo\Scripts\Components\DisplayIMGUI.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\StreamParser.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputFieldCaret.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\Stream.cs" />
     <Compile Include="Assets\Scripts\ChangeBrowserUserAgent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
@@ -127,6 +154,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\ApplyToMesh.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIVertexEffect.cs" />
     <Compile Include="Assets\Scripts\ItemsLocker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\AlexVersionMeditationController.cs" />
@@ -136,6 +164,7 @@
     <Compile Include="Assets\Scripts\BrowserView.cs" />
     <Compile Include="Assets\Scripts\Breathing.cs" />
     <Compile Include="Assets\Scripts\VRBrowserContainer.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RaycastToCanvas.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\MediaPlayer.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Mapping3D.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -146,20 +175,26 @@
     <Compile Include="Assets\AVProVideo\Demos\Scripts\SimpleController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\DownloadBlockingSystem.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_touchpad.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputModule.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\CanvasKeyboardASCII.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_OrientOnCurvedSpace.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\AndroidMediaPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\BrowserKeyboard.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\CanvasKeyboard.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIExtensionMethods.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\LoadFromBuffer.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_GunMovement.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\WindowsMediaPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIEventSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\VideoTrigger.cs" />
     <Compile Include="Assets\Scripts\VideoEngine.cs" />
@@ -169,10 +204,15 @@
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\LoadFromBufferInChunks.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\ApplyToMaterial.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\ChangeAudioTrack.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_DragBetweenCanvases.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\HLSStream.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_GunController.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMPInputFieldCaret.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\Internal\AVProVideoActionBase.cs" />
     <Compile Include="Assets\AVProVideo\Demos\Scripts\FrameExtract.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ChangeValueOnHold.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\Interfaces.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMPSubmesh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -188,6 +228,7 @@
     <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Helper-Transition.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Transparent.shader" />
+    <None Include="Assets\CurvedUI\CurvedUI_changelog.txt" />
     <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Transparent-Diffuse.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\LargeFileDownloader\Plugins\LargeFileDownloaderLib.dll" />
@@ -204,6 +245,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\OverlayBlend.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-AndroidOES.shader" />
     <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Skybox-Cube3x2.shader" />
@@ -816,6 +858,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{74ACC832-6C3B-A8BA-9FCC-22B18E8F8BC0}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
       <Project>{EE2FC806-C25E-04F7-6FFF-1B8844C655B8}</Project>
       <Name>SteamVR_Input_Editor</Name>
@@ -831,10 +877,6 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{D6B3AC04-5FCC-BB0E-5EB8-16791247DB3E}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{74ACC832-6C3B-A8BA-9FCC-22B18E8F8BC0}</Project>
-      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

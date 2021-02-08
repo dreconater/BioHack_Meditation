@@ -65,7 +65,7 @@ namespace Valve.VR
         {
             if (booleanAction == null)
             {
-                Debug.LogError("[SteamVR] Boolean action not set.", this);
+                Debug.Log("[SteamVR] Boolean action not set.", this);
                 return;
             }
 
