@@ -12,7 +12,7 @@ public class AlexVersionMeditationController : MonoBehaviour
 
     public string VideoSceneName;
 
-    public SteamVRInputModule Canvas;
+    public CurvedUIInputModule Canvas;
 
     public LargeFileDownloaderExample Downloader;
 

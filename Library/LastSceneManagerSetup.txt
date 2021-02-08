@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Alex's Version/SteamVersion_LandingPage.unity
+- path: Assets/Scenes/Alex's Version/SteamVersion_VideoPage.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
