@@ -201,7 +201,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
             Directory.CreateDirectory(filePath);
         }
         string VideoPath = Path.Combine(filePath, Path.GetFileName("https://storage.googleapis.com/mindfulness_vr_bucket/Videos/2K/" + VideoId + ".mp4"));
-        string VoicePath = Path.Combine(filePath, Path.GetFileName("https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/" + VoiceId + ".mp3"));
+        string VoicePath = Path.Combine(filePath, Path.GetFileName("https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Ogg/" + VoiceId + ".ogg"));
 
         if (File.Exists(VideoPath) && File.Exists(VoicePath))
         {
@@ -270,7 +270,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
 
         string VideoPath = Path.Combine(filePath, Path.GetFileName("https://storage.googleapis.com/mindfulness_vr_bucket/Videos/2K/" + VideoId + ".mp4"));
         
-        string VoicePath = Path.Combine(filePath, Path.GetFileName("https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/" + VoiceId + ".mp3"));
+        string VoicePath = Path.Combine(filePath, Path.GetFileName("https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Ogg/" + VoiceId + ".ogg"));
         
         if (File.Exists(VideoPath) && File.Exists(VoicePath))
         {
@@ -291,7 +291,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
                 videoUrl = "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/2K/" + VideoId + ".mp4";
             }
 
-            voiceUrl = "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/" + VoiceId + ".mp3";
+            voiceUrl = "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Ogg/" + VoiceId + ".ogg";
 
             MeditationController.OpenCustomMeditation(videoUrl, voiceUrl, IsMusicOn, false);
             PlayerPrefs.SetInt("IsBackFromVideo", 1);
@@ -301,7 +301,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
     void DownloadingCustomMeditation()
     {
         videoUrl = "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/" + VideoId + ".mp4";
-        voiceUrl = "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/" + VoiceId + ".mp3";
+        voiceUrl = "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Ogg/" + VoiceId + ".ogg";
 
 
         DownloadMeditationBtn.gameObject.SetActive(false);
