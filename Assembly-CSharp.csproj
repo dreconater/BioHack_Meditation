@@ -134,7 +134,6 @@
     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\CubeListener.cs" />
     <Compile Include="Assets\CurvedUI\Scripts\CurvedUILaserBeam.cs" />
     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ShowParentCoordinates.cs" />
-    <Compile Include="Assets\Scripts\SwitchUserSession.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\UpdateStereoMaterial.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoControl.cs" />
@@ -145,7 +144,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputFieldCaret.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\Stream.cs" />
-    <Compile Include="Assets\Scripts\ChangeBrowserUserAgent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\OpenCanvasKeyboard.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
@@ -161,7 +159,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\Scripts\BrowserView.cs" />
     <Compile Include="Assets\Scripts\Breathing.cs" />
     <Compile Include="Assets\Scripts\VRBrowserContainer.cs" />
     <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RaycastToCanvas.cs" />
@@ -186,7 +183,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\AndroidMediaPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\BrowserKeyboard.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\CanvasKeyboard.cs" />
     <Compile Include="Assets\CurvedUI\Scripts\CurvedUIExtensionMethods.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />

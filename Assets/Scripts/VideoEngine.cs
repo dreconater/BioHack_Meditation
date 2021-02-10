@@ -135,7 +135,7 @@ public class VideoEngine : MonoBehaviour
 
     private IEnumerator PickUpRandomVoice(string url) {
         Debug.Log(url);
-        UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.MPEG);
+        UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.OGGVORBIS);
         
         if (PlayerPrefs.GetInt("CanPlayMusic") == 0)
         {
@@ -213,7 +213,7 @@ public class VideoEngine : MonoBehaviour
     private IEnumerator PickUpRandomMusic(string url)
     {
         Debug.Log(url);
-        UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.MPEG);
+        UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.OGGVORBIS);
         AsyncOperation operation = request.SendWebRequest();
 
         if (PlayerPrefs.GetInt("CanPlayMusic") == 1)
