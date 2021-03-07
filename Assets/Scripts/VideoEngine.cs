@@ -76,8 +76,12 @@ public class VideoEngine : MonoBehaviour
         }
     }
 
-    void IssueText(bool value) {
-        IssueObject.SetActive(value);
+    void IssueText(bool value)
+    {
+        if (IssueObject != null)
+        {
+            IssueObject.SetActive(value);
+        }
     }
 
     private void DebugPlayerMessages(MediaPlayer arg0, MediaPlayerEvent.EventType arg1, ErrorCode arg2)
@@ -175,7 +179,10 @@ public class VideoEngine : MonoBehaviour
                 if (LoadingObject != null)
                 {
                     LoadingObject.SetActive(false);
-                    IssueObject.SetActive(false);
+                    if (IssueObject != null)
+                    {
+                        IssueObject.SetActive(false);
+                    }
                     yield return new WaitForSeconds(2f);
                     StartCoroutine(Breathing.StartBreathing());
                     if (!Audio_Voice.isPlaying)
@@ -196,7 +203,10 @@ public class VideoEngine : MonoBehaviour
                 if (LoadingObject != null)
                 {
                     LoadingObject.SetActive(false);
-                    IssueObject.SetActive(false);
+                    if (IssueObject != null)
+                    {
+                        IssueObject.SetActive(false);
+                    }
                     yield return new WaitForSeconds(2f);
                     StartCoroutine(Breathing.StartBreathing());
                     if (!Audio_Voice.isPlaying)
@@ -247,7 +257,10 @@ public class VideoEngine : MonoBehaviour
             if (LoadingObject != null)
             {
                 LoadingObject.SetActive(false);
-                IssueObject.SetActive(false);
+                if (IssueObject != null)
+                {
+                    IssueObject.SetActive(false);
+                }
                 yield return new WaitForSeconds(2f);
                 if (!Audio_Voice.isPlaying)
                 {

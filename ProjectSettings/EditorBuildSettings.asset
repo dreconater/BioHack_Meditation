@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/NewVersion/Locked_LandingPage2.unity
+    guid: f954e52caf9289e468bc37c8b90c837e
+  - enabled: 1
+    path: Assets/Scenes/NewVersion/Locked_VideoPage2.unity
+    guid: 4037a3a38fe5e5f4585b4ba1c8ec088d
+  - enabled: 0
     path: Assets/Scenes/Alex's Version/AlexVersion_LandingPage.unity
     guid: 5a3b79988c0a606449d03319209662ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alex's Version/AlexVersion_VideoPage.unity
     guid: 71eb0d1d5431e894a828b0f8cbad7894
   - enabled: 0

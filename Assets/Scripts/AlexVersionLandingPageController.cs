@@ -11,6 +11,9 @@ using UnityEngine.UI;
 
 public class AlexVersionLandingPageController : MonoBehaviour
 {
+    [Header("General")]
+    public OVRRaycaster Raycaster;
+
     [Header("Containers")]
     public GameObject IntroContainer;
     public GameObject MeditationContainer;
@@ -18,6 +21,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
     public GameObject VideosContainer;
     public GameObject VoicesContainer;
     public GameObject VRBrowserContainer;
+    public Animator TrialWindowContainer;
 
     public Toggle QualityToggle;
 
@@ -323,6 +327,12 @@ public class AlexVersionLandingPageController : MonoBehaviour
         {
             VRBrowserContainer.SetActive(true);
             MeditationContainer.SetActive(false);
+        }
+
+        if (TrialWindowContainer != null)
+        {
+            TrialWindowContainer.gameObject.SetActive(true);
+            TrialWindowContainer.Play("CanvasAplhaIn");
         }
     }
 
