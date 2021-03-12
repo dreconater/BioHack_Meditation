@@ -282,7 +282,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Internal\AndroidMediaPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\BrowserKeyboard.cs" />
     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\CanvasKeyboard.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationGeometry.cs" />
