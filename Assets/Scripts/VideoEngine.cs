@@ -22,6 +22,7 @@ public class VideoEngine : MonoBehaviour
     public GameObject LoadingObject;
     public GameObject BufferingObject;
     public GameObject IssueObject;
+    public GameObject InfoObject;
 
     public Image LoadingFillImage;
     public Text LoadingFillText;
@@ -65,7 +66,19 @@ public class VideoEngine : MonoBehaviour
             VideoPlayer.OpenVideoFromFile(MediaPlayer.FileLocation.AbsolutePathOrURL, url, false);
         }
 
-        yield return new WaitForSeconds(25.5f);
+        yield return new WaitForSeconds(1f);
+        if (InfoObject != null)
+        {
+            InfoObject.SetActive(true);
+        }
+
+        yield return new WaitForSeconds(4f);
+        if (InfoObject != null)
+        {
+            InfoObject.SetActive(false);
+        }
+
+        yield return new WaitForSeconds(20.5f);
         if (!Audio_Voice.isPlaying)
         {
             IssueText(true);
