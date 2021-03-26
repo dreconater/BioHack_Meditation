@@ -25,7 +25,7 @@ public class LargeFileDownloaderExample : MonoBehaviour {
 
         VideoURLs = new string[10] { "http://Biohack.network/1.mp4", "http://Biohack.network/2.mp4", "http://biohack.network/3.mp4", "http://Biohack.network/4.mp4", "http://Biohack.network/5.mp4", "http://Biohack.network/6.mp4", "http://Biohack.network/7.mp4", "http://Biohack.network/8.mp4", "http://Biohack.network/9.mp4", "http://Biohack.network/10.mp4" };
         AlexVideoURLs = new string[49] { "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/1.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/2.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/3.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/4.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/5.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/6.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/7.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/8.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/9.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/10.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/11.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/12.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/13.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/14.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/15.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/16.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/17.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/18.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/19.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/20.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/21.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/22.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/23.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/24.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/25.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/26.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/27.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/28.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/29.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/30.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/31.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/32.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/33.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/34.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/35.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/36.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/37.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/38.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/39.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/40.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/41.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/42.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/43.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/44.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/45.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/46.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/47.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/48.mp4", "https://storage.googleapis.com/mindfulness_vr_bucket/Videos/4K/49.mp4" };
-        AlexVoiceURLs = new string[20] { "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/1.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/2.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/3.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/4.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/5.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/6.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/7.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/8.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/9.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/10.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/11.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/12.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/13.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/14.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/15.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/16.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/17.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/18.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/19.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/20.mp3" };
+        AlexVoiceURLs = new string[21] { "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/0.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/1.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/2.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/3.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/4.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/5.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/6.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/7.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/8.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/9.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/10.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/11.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/12.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/13.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/14.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/15.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/16.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/17.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/18.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/19.mp3", "https://storage.googleapis.com/mindfulness_vr_bucket/Voices/Low/20.mp3" };
         VoiceURLs = new string[10] { "http://Biohack.network/Voices/1.mp3", "http://Biohack.network/Voices/2.mp3", "http://biohack.network/Voices/3.mp3", "http://Biohack.network/Voices/4.mp3", "http://Biohack.network/Voices/5.mp3", "http://Biohack.network/Voices/6.mp3", "http://Biohack.network/Voices/7.mp3", "http://Biohack.network/Voices/8.mp3", "http://Biohack.network/Voices/9.mp3", "http://Biohack.network/Voices/10.mp3" };
 
 		// create downloader instance
@@ -130,7 +130,16 @@ public class LargeFileDownloaderExample : MonoBehaviour {
 
     public void DownloadOnlyVoice(int id, Text percentageText, Slider slider, CustomMeditationContainer customMed, AlexVersionMeditationController customMed2)
     {
-        int newId = id - 1;
+        int newId = 0;
+
+        if (id == 0)
+        {
+            newId = id;
+        }
+        else
+        {
+            newId = id;
+        }
         CurrentPercentageText = percentageText;
         CurrentFillingBar = slider;
         currentDownladingItem = "Voice";
@@ -151,6 +160,7 @@ public class LargeFileDownloaderExample : MonoBehaviour {
             {
                 Directory.CreateDirectory(filePath);
             }
+            Debug.LogError(newId);
             pathToSave = System.IO.Path.Combine(filePath, System.IO.Path.GetFileName(AlexVoiceURLs[newId]));
             downloader.Download(AlexVoiceURLs[newId], pathToSave);
         }
@@ -160,7 +170,15 @@ public class LargeFileDownloaderExample : MonoBehaviour {
     public IEnumerator DownloadVideoAndVoice(int videoId, int voiceId, Text percentageText, Slider slider, string download, CustomMeditationContainer customMed, AlexVersionMeditationController customMed2)
     {
         newVideoId = videoId;
-        newVoiceId = voiceId - 1;
+        
+        if (voiceId == 0)
+        {
+            newVoiceId = voiceId;
+        }
+        else
+        {
+            newVoiceId = voiceId;
+        }
         CurrentPercentageText = percentageText;
         CurrentFillingBar = slider;
         IsDownloadingTwoFile = true;
