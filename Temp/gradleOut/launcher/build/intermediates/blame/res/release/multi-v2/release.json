@@ -1,0 +1,127 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endColumns": "45",
+                        "endOffsets": "240"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Editor 1\\.gradle\\caches\\transforms-2\\files-2.1\\9f3a7a040f29c937d7ae7fac6297bd5a\\app-debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,148,252",
+                        "endColumns": "45,46,50,54",
+                        "endOffsets": "96,143,194,302"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,148,364",
+                        "endColumns": "45,46,50,54",
+                        "endOffsets": "96,143,194,414"
+                    }
+                },
+                {
+                    "source": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "9,11,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "419,519,657",
+                        "endLines": "10,13,17",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "514,652,879"
+                    }
+                },
+                {
+                    "source": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,105",
+                        "endColumns": "48,65",
+                        "endOffsets": "101,168"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "245,296",
+                        "endColumns": "50,67",
+                        "endOffsets": "291,359"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}

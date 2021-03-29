@@ -29,6 +29,8 @@ public class VideoEngine : MonoBehaviour
 
     private int index = 0;
 
+    private bool isStartedAudio = false;
+
     private void Awake()
     {
         BackButton.onClick.AddListener(GoToMenu);
@@ -38,6 +40,7 @@ public class VideoEngine : MonoBehaviour
 
     private IEnumerator Start()
     {
+        isStartedAudio = false;
         BufferingObject.transform.localScale = Vector3.zero;
         if (Audio_Voice == null)
         {
@@ -128,10 +131,20 @@ public class VideoEngine : MonoBehaviour
     }
 
     void Update() {
-        if (VideoPlayer.Control.IsFinished())
+        /*if (VideoPlayer.Control.IsFinished())
         {
             Audio_Music.volume = 0;
             Audio_Voice.volume = 0;
+            GoToMenu();
+        }*/
+
+        if (Audio_Voice.isPlaying)
+        {
+            isStartedAudio = true;
+        }
+
+        if (!Audio_Voice.isPlaying && isStartedAudio)
+        {
             GoToMenu();
         }
 
