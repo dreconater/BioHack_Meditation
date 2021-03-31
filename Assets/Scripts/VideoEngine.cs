@@ -142,10 +142,14 @@ public class VideoEngine : MonoBehaviour
         {
             isStartedAudio = true;
         }
-
-        if (!Audio_Voice.isPlaying && isStartedAudio)
+        
+        if (isStartedAudio)
         {
-            GoToMenu();
+            if (Audio_Voice.time > (Audio_Voice.clip.length - 0.5f))
+            {
+                GoToMenu();
+            }
+
         }
 
         if (OVRInput.Get(OVRInput.Button.One))
