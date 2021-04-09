@@ -40,13 +40,14 @@ public class VideoEngine : MonoBehaviour
 
     private IEnumerator Start()
     {
+        HowManyTimesLagged = 0;
         isStartedAudio = false;
         BufferingObject.transform.localScale = Vector3.zero;
         if (Audio_Voice == null)
         {
             index = 0;
             string url = PlayerPrefs.GetString("VideoUrl");
-            VideoPlayer.m_Loop = false;
+            //VideoPlayer.m_Loop = false;
             VideoPlayer.OpenVideoFromFile(MediaPlayer.FileLocation.AbsolutePathOrURL, url, true);
             LoadingObject.SetActive(false);
         }
@@ -55,7 +56,7 @@ public class VideoEngine : MonoBehaviour
             LoadingObject.SetActive(true);
             StartCoroutine(PickUpRandomVoice(PlayerPrefs.GetString("VoiceUrl")));
             string url = PlayerPrefs.GetString("VideoUrl");
-            VideoPlayer.m_Loop = false;
+            //VideoPlayer.m_Loop = false;
             VideoPlayer.OpenVideoFromFile(MediaPlayer.FileLocation.AbsolutePathOrURL, url, false);
         }
         else
@@ -65,7 +66,7 @@ public class VideoEngine : MonoBehaviour
             StartCoroutine(PickUpRandomVoice(PlayerPrefs.GetString("VoiceUrl")));
             StartCoroutine(PickUpRandomMusic(PlayerPrefs.GetString("MusicUrl")));
             string url = PlayerPrefs.GetString("VideoUrl");
-            VideoPlayer.m_Loop = false;
+           // VideoPlayer.m_Loop = false;
             VideoPlayer.OpenVideoFromFile(MediaPlayer.FileLocation.AbsolutePathOrURL, url, false);
         }
 
@@ -100,10 +101,14 @@ public class VideoEngine : MonoBehaviour
         }
     }
 
+    private int HowManyTimesLagged = 0;
+
     private void DebugPlayerMessages(MediaPlayer arg0, MediaPlayerEvent.EventType arg1, ErrorCode arg2)
     {
         if (arg1 == MediaPlayerEvent.EventType.Stalled)
         {
+            HowManyTimesLagged++;
+
             BufferingObject.SetActive(true);
             if (PlayerPrefs.GetInt("CanPlayMusic") == 0)
             {
@@ -114,9 +119,15 @@ public class VideoEngine : MonoBehaviour
                 Audio_Voice.Pause();
                 Audio_Music.Pause();
             }
+
+            if (HowManyTimesLagged > 3)
+            {
+                IssueText(true);
+            }
         }
         else if (arg1 == MediaPlayerEvent.EventType.Unstalled)
         {
+            IssueText(false);
             BufferingObject.SetActive(false);
             if (PlayerPrefs.GetInt("CanPlayMusic") == 0)
             {
