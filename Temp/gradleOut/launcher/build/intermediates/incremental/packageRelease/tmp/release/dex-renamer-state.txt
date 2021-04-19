@@ -1,4 +1,0 @@
-#Mon Mar 29 15:24:19 AMT 2021
-base.0=E\:\\Unity Projects\\BioHack_Meditation\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
