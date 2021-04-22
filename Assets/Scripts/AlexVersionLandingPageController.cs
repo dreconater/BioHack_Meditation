@@ -73,9 +73,8 @@ public class AlexVersionLandingPageController : MonoBehaviour
 
     private void Start()
     {
-
         IntroCount = PlayerPrefs.GetInt("IntroCount");
-        PlayerPrefs.SetString("Breathing", "on");
+        PlayerPrefs.SetString("Breathing", "particle");
         IntroContainer.SetActive(false);
         MeditationContainer.SetActive(false);
         VideoId = 1;
@@ -244,17 +243,17 @@ public class AlexVersionLandingPageController : MonoBehaviour
         IsMusicOn = value;
     }
 
-    public void SetBreath(Toggle toggle)
+    public void SetBreath(string toggleName)
     {
-        bool value = toggle.isOn;
+        string name = toggleName;
 
-        if (value == true)
+        if (name == "vapor")
         {
-            PlayerPrefs.SetString("Breathing", "on");
+            PlayerPrefs.SetString("Breathing", "vapor");
         }
-        else
+        else if (name == "particle")
         {
-            PlayerPrefs.SetString("Breathing", "off");
+            PlayerPrefs.SetString("Breathing", "particle");
         }
     }
 
