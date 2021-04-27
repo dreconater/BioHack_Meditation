@@ -47,14 +47,23 @@ public class Breathing : MonoBehaviour
         BreathingSoundEffect.volume = 0.05f;
         if (PlayerPrefs.GetString("Breathing") == "vapor")
         {
+            FrostEffect.gameObject.SetActive(true);
+            BreathIn.gameObject.SetActive(false);
+            BreathOut.gameObject.SetActive(false);
 
+            BreathingSoundEffect.Play();
+            yield return new WaitForSeconds(4f);
+            FrostEffect.Play();
+            yield return new WaitForSeconds(5);
+            StartCoroutine(StartBreathing());
         }
         else if (PlayerPrefs.GetString("Breathing") == "particle")
         {
+            FrostEffect.gameObject.SetActive(false);
+            BreathIn.gameObject.SetActive(true);
+            BreathOut.gameObject.SetActive(true);
+
 
         }
-
-        yield return new WaitForSeconds(9f);
-        StartCoroutine(StartBreathing());
     }
 }
