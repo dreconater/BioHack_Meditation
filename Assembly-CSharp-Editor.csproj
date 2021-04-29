@@ -69,19 +69,23 @@
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioManagerInspector.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Utils\Editor\DrawerInspectorNote.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Editor\SupportWindow.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIInputModuleEditor.cs" />
     <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncTool.cs" />
     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPAudioSourceEditor.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Editor\MediaPlayerEditor.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIScriptOrder.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor\TeleportTransitionWarpInspector.cs" />
     <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncBuildPostProcessor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXPropertyDrawer.cs" />
     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPReflectionCustomGUI.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Editor\ConditionalCompilationUtility.cs" />
     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationGeometryEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\MediaPlayerImageEditor.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Editor\DisplayUGUIEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Editor\OVROverlayCanvasEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIHandSwitcherEditor.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Editor\PostProcessBuild.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Editor\AVProVideoActionHeaderPropertyDrawer.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXRefPropertyDrawer.cs" />
@@ -90,10 +94,6 @@
     <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncContextMorphTargetEditor.cs" />
     <Compile Include="Assets\AVProVideo\Scripts\Editor\UpdateStereoMaterialEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIInputModuleEditor.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIScriptOrder.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\Editor\ConditionalCompilationUtility.cs" />
-    <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIHandSwitcherEditor.cs" />
     <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUISettingsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -735,6 +735,10 @@
       <Project>{9861157F-F9BA-B4E6-1F9B-AB41203091FE}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{74ACC832-6C3B-A8BA-9FCC-22B18E8F8BC0}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
       <Project>{AA78377A-99E9-3554-62E9-C791CF23E672}</Project>
       <Name>Oculus.VR.Editor</Name>
@@ -762,10 +766,6 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{D6B3AC04-5FCC-BB0E-5EB8-16791247DB3E}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{74ACC832-6C3B-A8BA-9FCC-22B18E8F8BC0}</Project>
-      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
