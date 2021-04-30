@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.IO;
+using CurvedUI;
 
 public class AlexVersionMeditationController : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class AlexVersionMeditationController : MonoBehaviour
 
     public string VideoSceneName;
 
-    public OVRRaycaster Canvas;
+    public CurvedUIEventSystem Canvas;
 
     public LargeFileDownloaderExample Downloader;
 

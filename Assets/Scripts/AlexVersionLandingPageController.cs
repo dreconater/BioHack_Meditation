@@ -11,9 +11,6 @@ using UnityEngine.UI;
 
 public class AlexVersionLandingPageController : MonoBehaviour
 {
-    [Header("General")]
-    public OVRRaycaster Raycaster;
-
     [Header("Containers")]
     public GameObject IntroContainer;
     public GameObject MeditationContainer;

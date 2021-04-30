@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AlexVersionLandingPageController
     - AlexVersionMeditationController
     - Breathing
+    - CurvedUI.CurvedUIVertexEffect
     - HandedInputSelector
     - ItemsLocker
     - LargeFileDownloaderExample
@@ -34,9 +35,15 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.OVRInputModule
     - UnityEngine.EventSystems.OVRPhysicsRaycaster
     SteamVR.dll:
+    - Valve.VR.SteamVR_Behaviour_Pose
+    - Valve.VR.SteamVR_Behaviour_Skeleton
+    - Valve.VR.SteamVR_CameraHelper
     - Valve.VR.SteamVR_ExternalCamera
+    - Valve.VR.SteamVR_PlayArea
+    - Valve.VR.SteamVR_RenderModel
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
+    - Valve.VR.SteamVR_Skeleton_Poser
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -53,6 +60,9 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
+    Unity.XR.OpenVR.dll:
+    - Unity.XR.OpenVR.OpenVRLoader
+    - Unity.XR.OpenVR.OpenVRSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -109,6 +119,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -118,110 +130,102 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12182}
-    - Class: 114
       Script: {instanceID: 12186}
-    - Class: 114
-      Script: {instanceID: 12188}
     - Class: 114
       Script: {instanceID: 12190}
     - Class: 114
+      Script: {instanceID: 12192}
+    - Class: 114
       Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12226}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12230}
     - Class: 114
-      Script: {instanceID: 12380}
+      Script: {instanceID: 12386}
     - Class: 114
-      Script: {instanceID: 12554}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 12780}
+      Script: {instanceID: 12804}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 13306}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 13364}
     - Class: 114
-      Script: {instanceID: 13272}
+      Script: {instanceID: 13424}
     - Class: 114
-      Script: {instanceID: 13328}
+      Script: {instanceID: 13518}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 13590}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13910}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 14312}
     - Class: 114
-      Script: {instanceID: 13550}
+      Script: {instanceID: 14320}
     - Class: 114
-      Script: {instanceID: 13734}
+      Script: {instanceID: 14638}
     - Class: 114
-      Script: {instanceID: 14252}
+      Script: {instanceID: 14746}
     - Class: 114
-      Script: {instanceID: 14570}
+      Script: {instanceID: 14892}
     - Class: 114
-      Script: {instanceID: 14672}
+      Script: {instanceID: 14932}
     - Class: 114
-      Script: {instanceID: 14678}
-    - Class: 114
-      Script: {instanceID: 14818}
-    - Class: 114
-      Script: {instanceID: 14858}
-    - Class: 114
-      Script: {instanceID: 14872}
-    - Class: 114
-      Script: {instanceID: 14882}
-    - Class: 114
-      Script: {instanceID: 14910}
-    - Class: 114
-      Script: {instanceID: 14918}
-    - Class: 114
-      Script: {instanceID: 14942}
+      Script: {instanceID: 14946}
     - Class: 114
       Script: {instanceID: 14984}
     - Class: 114
-      Script: {instanceID: 15104}
+      Script: {instanceID: 14992}
     - Class: 114
-      Script: {instanceID: 15208}
+      Script: {instanceID: 15016}
     - Class: 114
-      Script: {instanceID: 15402}
+      Script: {instanceID: 15058}
     - Class: 114
-      Script: {instanceID: 15442}
+      Script: {instanceID: 15082}
     - Class: 114
-      Script: {instanceID: 15556}
+      Script: {instanceID: 15132}
     - Class: 114
-      Script: {instanceID: 15640}
+      Script: {instanceID: 15140}
     - Class: 114
-      Script: {instanceID: 15664}
+      Script: {instanceID: 15170}
     - Class: 114
-      Script: {instanceID: 15666}
+      Script: {instanceID: 15182}
     - Class: 114
-      Script: {instanceID: 15668}
+      Script: {instanceID: 15286}
     - Class: 114
-      Script: {instanceID: 15764}
+      Script: {instanceID: 15484}
     - Class: 114
-      Script: {instanceID: 15820}
+      Script: {instanceID: 15642}
     - Class: 114
-      Script: {instanceID: 16010}
+      Script: {instanceID: 15728}
     - Class: 114
-      Script: {instanceID: 16042}
+      Script: {instanceID: 15752}
     - Class: 114
-      Script: {instanceID: 16056}
+      Script: {instanceID: 15754}
     - Class: 114
-      Script: {instanceID: 16150}
+      Script: {instanceID: 15844}
     - Class: 114
-      Script: {instanceID: 16262}
+      Script: {instanceID: 15854}
     - Class: 114
-      Script: {instanceID: 16340}
+      Script: {instanceID: 15912}
     - Class: 114
-      Script: {instanceID: 23770}
+      Script: {instanceID: 16106}
+    - Class: 114
+      Script: {instanceID: 16152}
+    - Class: 114
+      Script: {instanceID: 16248}
+    - Class: 114
+      Script: {instanceID: 16362}
+    - Class: 114
+      Script: {instanceID: 16446}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -279,45 +283,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12182}
-    - Class: 114
       Script: {instanceID: 12186}
     - Class: 114
-      Script: {instanceID: 12188}
+      Script: {instanceID: 12190}
     - Class: 114
-      Script: {instanceID: 12226}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12230}
     - Class: 114
-      Script: {instanceID: 12554}
+      Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 12568}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 13354}
     - Class: 114
-      Script: {instanceID: 13734}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 14570}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 14672}
+      Script: {instanceID: 14638}
     - Class: 114
-      Script: {instanceID: 14882}
+      Script: {instanceID: 14740}
     - Class: 114
-      Script: {instanceID: 14984}
+      Script: {instanceID: 14956}
     - Class: 114
-      Script: {instanceID: 15346}
+      Script: {instanceID: 15058}
     - Class: 114
-      Script: {instanceID: 15402}
+      Script: {instanceID: 15426}
     - Class: 114
-      Script: {instanceID: 15442}
+      Script: {instanceID: 15484}
     - Class: 114
-      Script: {instanceID: 15668}
+      Script: {instanceID: 15524}
     - Class: 114
-      Script: {instanceID: 16018}
+      Script: {instanceID: 15756}
     - Class: 114
-      Script: {instanceID: 16042}
+      Script: {instanceID: 16114}
+    - Class: 114
+      Script: {instanceID: 16138}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -473,6 +477,12 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: c2ddf5ef5148dd704ff2e58d122ec864
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_inventory_paralax
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -507,6 +517,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GeneralMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 78b6168a8330993beeeedc619cd23fdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUITMP
   - hash:
       serializedVersion: 2
       Hash: e4c511fcf31a39b6e614595be7309046
@@ -629,10 +645,22 @@ ScriptsOnlyBuild:
     className: CustomMeditationContainer
   - hash:
       serializedVersion: 2
+      Hash: 0373bc71a65ef302c164d55a11ed938e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_TMPChecker
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UnityThread
+  - hash:
+      serializedVersion: 2
+      Hash: a5295cdbe0bd05d48f45d315c94c0421
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUISettings
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -677,10 +705,28 @@ ScriptsOnlyBuild:
     className: GazeInputModuleCrosshair
   - hash:
       serializedVersion: 2
+      Hash: 7a323d1278ad60296ba241b3fbf7e812
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_RiseChildrenOverTime
+  - hash:
+      serializedVersion: 2
       Hash: fd8b23ad3c9e81bc85b197495bc510ac
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 61f930de8e48f3d83c6a001feec496fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CUI_MoveHeartbeat
+  - hash:
+      serializedVersion: 2
+      Hash: 23b1b020ecb70bc6470724fabf3eb6ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_ViveButtonState
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -887,6 +933,12 @@ ScriptsOnlyBuild:
     className: CustomSkeletonHelper
   - hash:
       serializedVersion: 2
+      Hash: 25987e51d15dc441dbfab12db3386638
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CUI_rotation_anim
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -921,6 +973,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportAimHandlerParabolic
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CUI_MoveAlong
   - hash:
       serializedVersion: 2
       Hash: eb111dbbcdd306b58aee84fff1591dff
@@ -1128,9 +1186,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIViveController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRResources
+  - hash:
+      serializedVersion: 2
+      Hash: 253438c1ae6dd17b07609c3d57c3289a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_CameraController
   - hash:
       serializedVersion: 2
       Hash: 4ad6beda2c0ca76215175ddca461ae7c
@@ -1161,6 +1231,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_AnimateCurvedFillOnStart
   - hash:
       serializedVersion: 2
       Hash: fd9929367df3e3bd067c3420e4e62afe
@@ -1235,6 +1311,12 @@ ScriptsOnlyBuild:
     className: ButtonListener
   - hash:
       serializedVersion: 2
+      Hash: 3efcad5f0df8afc8ba54e9b98d5d6112
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: 5777c70a25f193ad387a5581565b81b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
@@ -1263,6 +1345,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RandomPicker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_WorldSpaceCursorFollow
   - hash:
       serializedVersion: 2
       Hash: e0f1a8d4b95e2893e46f658b3b796847
@@ -1439,6 +1527,18 @@ ScriptsOnlyBuild:
     className: OVRHeadsetEmulator
   - hash:
       serializedVersion: 2
+      Hash: 113bc7fb672986c101b7e1945bfc7f89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CUI_CameraRotationOnButtonHeld
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_ViveHapticPulse
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1481,6 +1581,12 @@ ScriptsOnlyBuild:
     className: TeleportTargetHandlerPhysical
   - hash:
       serializedVersion: 2
+      Hash: f3273611953a225e3c2c9b2fd028ec28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_PerlinNoisePosition
+  - hash:
+      serializedVersion: 2
       Hash: 23bd7381dcbd24a00ff5cdfa59d4fb47
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
@@ -1517,6 +1623,12 @@ ScriptsOnlyBuild:
     className: LinearDisplacement
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_PickImageFromSet
+  - hash:
+      serializedVersion: 2
       Hash: 2443caa27902449f1eb355f2bd6c7d3e
     assemblyName: Unity.XR.OpenVR.dll
     namespaceName: Unity.XR.OpenVR
@@ -1547,10 +1659,22 @@ ScriptsOnlyBuild:
     className: SpawnAndAttachAfterControllerIsTracking
   - hash:
       serializedVersion: 2
+      Hash: c2c76fea856a133fe4daeeba492de3f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_PerlinNoiseRotation
+  - hash:
+      serializedVersion: 2
       Hash: 09638efb30e8eb4d3922a4c57eb4f6e1
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: InteractableHoverEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_draggable
   - hash:
       serializedVersion: 2
       Hash: 5be5617aaccaba711b254597d4101940
@@ -1781,6 +1905,12 @@ ScriptsOnlyBuild:
     className: OVRHandTest
   - hash:
       serializedVersion: 2
+      Hash: 548f34a4276155f80e23dadeabbb66e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_WorldSpaceMouseMultipleCanvases
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -1851,6 +1981,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR
     className: SteamVR_Behaviour_Skeleton
+  - hash:
+      serializedVersion: 2
+      Hash: 34ebcc447389a16e595851ae8ef0e04b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIHandSwitcher
   - hash:
       serializedVersion: 2
       Hash: 2fa405fd598b8a89245b3c78c55e9904
@@ -1925,6 +2061,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncContextMorphTarget
   - hash:
       serializedVersion: 2
+      Hash: 98fa546af5769b9169452454c86bc06c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUILaserBeam
+  - hash:
+      serializedVersion: 2
       Hash: 157538f8f4891e8727c599fd613d7108
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1959,6 +2101,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CUI_ShowParentCoordinates
   - hash:
       serializedVersion: 2
       Hash: 9fce3d3ad5943924497902d7085db4c5
@@ -2175,6 +2323,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR
     className: SteamVR_Fade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIInputFieldCaret
   - hash:
       serializedVersion: 2
       Hash: bf8312e5e419f0f7299da40aabf2d600
@@ -2441,6 +2595,12 @@ ScriptsOnlyBuild:
     className: ApplyToMesh
   - hash:
       serializedVersion: 2
+      Hash: 8c37797212ce628fe5365cf254bf3adf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIVertexEffect
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR
@@ -2675,6 +2835,12 @@ ScriptsOnlyBuild:
     className: MatchController
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_RaycastToCanvas
+  - hash:
+      serializedVersion: 2
       Hash: 25283d093bda5c14006072f3cd34750a
     assemblyName: Assembly-CSharp.dll
     namespaceName: RenderHeads.Media.AVProVideo
@@ -2759,6 +2925,12 @@ ScriptsOnlyBuild:
     className: SkewTextExample
   - hash:
       serializedVersion: 2
+      Hash: 1a5bc20549c372e0ea45e1ebbdf59f3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIPhysicsRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: d7af9ec50dcb749fd86f8334213aec2d
     assemblyName: Assembly-CSharp.dll
     namespaceName: RenderHeads.Media.AVProVideo.Demos
@@ -2807,6 +2979,12 @@ ScriptsOnlyBuild:
     className: Unparent
   - hash:
       serializedVersion: 2
+      Hash: a27452bfd54b80438f473e9b697145bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CUI_touchpad
+  - hash:
+      serializedVersion: 2
       Hash: b00ce1f32326f1cd1160488ffd14965a
     assemblyName: Oculus.VR.Editor.dll
     namespaceName: 
@@ -2841,6 +3019,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: PanelHMDFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 4d707f9ec73ea4f22566f4df6fd0fbde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CurvedUIInputModule
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2895,6 +3079,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: UnityEngine.EventSystems
     className: OVRInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5e184a4993e84a5694989b85f1c9d375
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_OrientOnCurvedSpace
   - hash:
       serializedVersion: 2
       Hash: e0fd6b206f44251ddce06e242ee39fb8
@@ -3023,6 +3213,12 @@ ScriptsOnlyBuild:
     className: CircularDrive
   - hash:
       serializedVersion: 2
+      Hash: c1cf7c35222e38b6b34f223c695394bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_GunMovement
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
@@ -3045,6 +3241,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUIEventSystem
   - hash:
       serializedVersion: 2
       Hash: c12f6929b034322884ced721fca65b10
@@ -3197,6 +3399,12 @@ ScriptsOnlyBuild:
     className: TeleportTransitionBlink
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_ChangeColor
+  - hash:
+      serializedVersion: 2
       Hash: 134322c9293c1896357cce271b819ce4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -3249,6 +3457,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: WindmillController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_DragBetweenCanvases
   - hash:
       serializedVersion: 2
       Hash: c3bd598ebf26a1734f4e48c8dfe999af
@@ -3311,6 +3525,18 @@ ScriptsOnlyBuild:
     className: VREyeRaycaster
   - hash:
       serializedVersion: 2
+      Hash: fa379707d2dbec5ab440237b44c7876c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_GunController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUITMPInputFieldCaret
+  - hash:
+      serializedVersion: 2
       Hash: 0e8dbd0a181c0f62f8eb34001deff1c7
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -3335,10 +3561,22 @@ ScriptsOnlyBuild:
     className: DebugUISample
   - hash:
       serializedVersion: 2
+      Hash: 11ea9d7ede92b8989cb33b8aaf9c1753
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CUI_ChangeValueOnHold
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CurvedUI
+    className: CurvedUITMPSubmesh
   - hash:
       serializedVersion: 2
       Hash: 75cd39a1f6026e63f483b86039e2c4cb
