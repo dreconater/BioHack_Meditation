@@ -97,7 +97,7 @@ public class CustomMeditationContainer : MonoBehaviour
         OnlineButton = onlineBtn;
 
         string VideoPath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + VideoId + ".mp4"));
-        string VoicePath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + VoiceId + ".mp3"));
+        string VoicePath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + VoiceId + ".ogg"));
 
         if (File.Exists(VideoPath) && File.Exists(VoicePath))
         {

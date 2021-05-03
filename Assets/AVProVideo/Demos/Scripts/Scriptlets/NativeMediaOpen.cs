@@ -42,7 +42,7 @@ namespace RenderHeads.Media.AVProVideo.Demos
 			_picker.FileTypeFilter.Add(".m4v");
 			_picker.FileTypeFilter.Add(".mkv");
 			_picker.FileTypeFilter.Add(".avi");
-			_picker.FileTypeFilter.Add(".mp3");
+			_picker.FileTypeFilter.Add(".ogg");
 			_picker.FileTypeFilter.Add(".aac");
 #endif
 		}

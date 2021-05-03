@@ -132,7 +132,7 @@ public class LandingPageController : MonoBehaviour
 
     void CheckOfflineVersion() {
         string VideoPath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + VideoId + ".mp4"));
-        string VoicePath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + DayId + ".mp3"));
+        string VoicePath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + DayId + ".ogg"));
 
         if (File.Exists(VideoPath) && File.Exists(VoicePath))
         {
@@ -186,7 +186,7 @@ public class LandingPageController : MonoBehaviour
 
     void SetCustomMeditationOptions() {
         string VideoPath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + VideoId + ".mp4"));
-        string VoicePath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + DayId + ".mp3"));
+        string VoicePath = Path.Combine(Application.persistentDataPath, Path.GetFileName("http://biohack.network/" + DayId + ".ogg"));
 
         if (File.Exists(VideoPath) && File.Exists(VoicePath))
         {
@@ -205,7 +205,7 @@ public class LandingPageController : MonoBehaviour
                 videoUrl = "http://biohack.network/" + VideoId + ".mp4";
             }
 
-            voiceUrl = "http://biohack.network/Voices/" + DayId + ".mp3";
+            voiceUrl = "http://biohack.network/Voices/" + DayId + ".ogg";
 
             CustomMeditationPicker.OpenCustomMeditation(videoUrl, voiceUrl, IsMusicOn, false);
         }
@@ -221,7 +221,7 @@ public class LandingPageController : MonoBehaviour
             videoUrl = "http://biohack.network/" + VideoId + ".mp4";
         }
 
-        voiceUrl = "http://biohack.network/Voices/" + DayId + ".mp3";
+        voiceUrl = "http://biohack.network/Voices/" + DayId + ".ogg";
 
         DownloadCustomMeditationBtn.gameObject.SetActive(false);
         ProgressBar.gameObject.SetActive(true);

@@ -179,7 +179,7 @@ public class VideoEngine : MonoBehaviour
     }
 
     private IEnumerator PickUpRandomVoice(string url) {
-        Debug.Log(url);
+        Debug.LogError(url);
         UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(url, AudioType.OGGVORBIS);
         
         if (PlayerPrefs.GetInt("CanPlayMusic") == 0)
