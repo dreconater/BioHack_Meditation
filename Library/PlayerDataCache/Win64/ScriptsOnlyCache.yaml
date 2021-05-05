@@ -4,14 +4,16 @@ ScriptsOnlyBuild:
     - AlexVersionLandingPageController
     - AlexVersionMeditationController
     - Breathing
+    - CurvedUI.CurvedUIEventSystem
+    - CurvedUI.CurvedUIHandSwitcher
+    - CurvedUI.CurvedUIInputFieldCaret
+    - CurvedUI.CurvedUILaserBeam
+    - CurvedUI.CurvedUISettings
     - CurvedUI.CurvedUIVertexEffect
-    - HandedInputSelector
+    - CurvedUIInputModule
     - ItemsLocker
     - LargeFileDownloaderExample
-    - LaserPointer
     - ONSPSettings
-    - OvrAvatar
-    - OvrAvatarLocalDriver
     - OvrAvatarSettings
     - RenderHeads.Media.AVProVideo.ApplyToMesh
     - RenderHeads.Media.AVProVideo.MediaPlayer
@@ -27,23 +29,14 @@ ScriptsOnlyBuild:
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
-    Oculus.VR.dll:
-    - OVRCameraRig
-    - OVRHeadsetEmulator
-    - OVRManager
-    - OVRRaycaster
-    - UnityEngine.EventSystems.OVRInputModule
-    - UnityEngine.EventSystems.OVRPhysicsRaycaster
     SteamVR.dll:
     - Valve.VR.SteamVR_Behaviour_Pose
-    - Valve.VR.SteamVR_Behaviour_Skeleton
     - Valve.VR.SteamVR_CameraHelper
     - Valve.VR.SteamVR_ExternalCamera
     - Valve.VR.SteamVR_PlayArea
     - Valve.VR.SteamVR_RenderModel
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
-    - Valve.VR.SteamVR_Skeleton_Poser
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -74,8 +67,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GridLayoutGroup
@@ -119,8 +112,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -144,7 +135,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12386}
     - Class: 114
-      Script: {instanceID: 12716}
+      Script: {instanceID: 12544}
     - Class: 114
       Script: {instanceID: 12800}
     - Class: 114
@@ -164,11 +155,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14312}
     - Class: 114
-      Script: {instanceID: 14320}
+      Script: {instanceID: 14340}
+    - Class: 114
+      Script: {instanceID: 14436}
     - Class: 114
       Script: {instanceID: 14638}
     - Class: 114
       Script: {instanceID: 14746}
+    - Class: 114
+      Script: {instanceID: 14756}
     - Class: 114
       Script: {instanceID: 14892}
     - Class: 114
@@ -200,17 +195,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15642}
     - Class: 114
+      Script: {instanceID: 15682}
+    - Class: 114
       Script: {instanceID: 15728}
     - Class: 114
       Script: {instanceID: 15752}
     - Class: 114
       Script: {instanceID: 15754}
     - Class: 114
-      Script: {instanceID: 15844}
-    - Class: 114
       Script: {instanceID: 15854}
     - Class: 114
       Script: {instanceID: 15912}
+    - Class: 114
+      Script: {instanceID: 16090}
     - Class: 114
       Script: {instanceID: 16106}
     - Class: 114
@@ -218,14 +215,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16248}
     - Class: 114
+      Script: {instanceID: 16336}
+    - Class: 114
       Script: {instanceID: 16362}
     - Class: 114
       Script: {instanceID: 16446}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -291,40 +288,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12230}
     - Class: 114
-      Script: {instanceID: 12344}
-    - Class: 114
-      Script: {instanceID: 12568}
-    - Class: 114
-      Script: {instanceID: 13034}
-    - Class: 114
       Script: {instanceID: 13354}
     - Class: 114
-      Script: {instanceID: 13522}
-    - Class: 114
-      Script: {instanceID: 13774}
+      Script: {instanceID: 13910}
     - Class: 114
       Script: {instanceID: 14638}
     - Class: 114
-      Script: {instanceID: 14740}
-    - Class: 114
-      Script: {instanceID: 14956}
-    - Class: 114
       Script: {instanceID: 15058}
+    - Class: 114
+      Script: {instanceID: 15132}
+    - Class: 114
+      Script: {instanceID: 15140}
+    - Class: 114
+      Script: {instanceID: 15170}
     - Class: 114
       Script: {instanceID: 15426}
     - Class: 114
       Script: {instanceID: 15484}
     - Class: 114
-      Script: {instanceID: 15524}
-    - Class: 114
-      Script: {instanceID: 15756}
-    - Class: 114
       Script: {instanceID: 16114}
-    - Class: 114
-      Script: {instanceID: 16138}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -1965,7 +1948,7 @@ ScriptsOnlyBuild:
     className: SteamVR_Menu
   - hash:
       serializedVersion: 2
-      Hash: 5839256b77efc18dd39493fb7df9a5e2
+      Hash: 5f0755791bb99bcd8fa177a70f13c86c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AlexVersionLandingPageController
@@ -2739,7 +2722,7 @@ ScriptsOnlyBuild:
     className: HandPhysics
   - hash:
       serializedVersion: 2
-      Hash: 7522f43f0b30986b03bfdd05353ee946
+      Hash: 500d678b045d145fc6a51734bd29b77c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AlexVersionMeditationController
