@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -150,7 +154,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
 
         SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
         smtpServer.Port = 587;
-        smtpServer.Credentials = new System.Net.NetworkCredential("team@biohack.network", "WorkSmart@111") as ICredentialsByHost;
+        smtpServer.Credentials = new System.Net.NetworkCredential("team@biohack.network", "work_hard@_11!") as ICredentialsByHost;
         smtpServer.EnableSsl = true;
         ServicePointManager.ServerCertificateValidationCallback =
             delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
