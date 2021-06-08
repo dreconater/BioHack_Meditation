@@ -49,6 +49,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
     private int IntroCount;
     private string videoUrl;
     private string voiceUrl;
+    private string emailPassword = "";
     private bool IsMusicOn = true;
 
     public AlexVersionMeditationController MeditationController;
@@ -99,6 +100,15 @@ public class AlexVersionLandingPageController : MonoBehaviour
             PlayerPrefs.SetInt("IsBackFromVideo", 0);
             StartCoroutine(CheckAndOpenEmailSection());
         }
+
+        StartCoroutine(GetPassword());
+    }
+
+    IEnumerator GetPassword() {
+        WWW www = new WWW("https://drive.google.com/uc?export=download&id=1gIC4sBROMN4vgwKzWS1uVLr1ktTNIEha");
+        yield return www;
+        emailPassword = www.text;
+        Settings.emailPassword = www.text;
     }
 
     IEnumerator CheckAndOpenEmailSection()
@@ -154,7 +164,7 @@ public class AlexVersionLandingPageController : MonoBehaviour
 
         SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
         smtpServer.Port = 587;
-        smtpServer.Credentials = new System.Net.NetworkCredential("team@biohack.network", "work_hard@_11!") as ICredentialsByHost;
+        smtpServer.Credentials = new System.Net.NetworkCredential("team@biohack.network", emailPassword) as ICredentialsByHost;
         smtpServer.EnableSsl = true;
         ServicePointManager.ServerCertificateValidationCallback =
             delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)

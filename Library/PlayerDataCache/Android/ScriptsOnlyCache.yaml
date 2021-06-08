@@ -206,7 +206,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15770}
     - Class: 114
-      Script: {instanceID: 22798}
+      Script: {instanceID: 22796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -445,7 +445,7 @@ ScriptsOnlyBuild:
     className: OculusSpatializerUnity
   - hash:
       serializedVersion: 2
-      Hash: feced4c733d3e42d7a5e643b787ccdd2
+      Hash: 9ff2559292837f51d15a6262b70a1f35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SettingsPageController

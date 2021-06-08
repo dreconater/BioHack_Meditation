@@ -23,6 +23,8 @@ public class SettingsPageController : MonoBehaviour
 
     public Action SettingsPanelClosed;
 
+    public string emailPassword = "";
+
     void Awake()
     {
         SendEmailBtn.onClick.AddListener(()=> { StartCoroutine(SendEmail()); });
@@ -61,7 +63,7 @@ public class SettingsPageController : MonoBehaviour
 
         SmtpClient smtpServer = new SmtpClient("smtp-relay.gmail.com");
         smtpServer.Port = 587;
-        smtpServer.Credentials = new System.Net.NetworkCredential("team@biohack.network", "work_hard@_11!") as ICredentialsByHost;
+        smtpServer.Credentials = new System.Net.NetworkCredential("team@biohack.network", emailPassword) as ICredentialsByHost;
         smtpServer.EnableSsl = true;
         ServicePointManager.ServerCertificateValidationCallback =
             delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
