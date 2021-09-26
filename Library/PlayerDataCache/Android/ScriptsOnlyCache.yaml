@@ -46,6 +46,8 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.Editor.dll:
+    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -2559,4 +2561,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/NewVersion/Locked_LandingPage2.unity
   - Assets/Scenes/NewVersion/Locked_VideoPage2.unity
-  playerPath: C:/Users/User/Downloads/MindfulnessVR.apk
+  playerPath: C:/Users/Editor 1/Downloads/BioHackApp.apk
