@@ -25,6 +25,11 @@ public class AlexVersionLandingPageController : MonoBehaviour
     public GameObject VideosContainer;
     public GameObject VoicesContainer;
     public GameObject VRBrowserContainer;
+    public GameObject Voices20Container;
+    public GameObject Voices12Container;
+    public GameObject Voices6Container;
+    public GameObject CourdesContainer;
+
     public Animator TrialWindowContainer;
 
     public Toggle QualityToggle;
@@ -242,6 +247,23 @@ public class AlexVersionLandingPageController : MonoBehaviour
         VideoId = int.Parse(videoId[1]);
         CheckOfflineVersion();
         OpenVoiceContainer();
+    }
+
+    public void SetCourse(string text) {
+        CourdesContainer.SetActive(false);
+
+        if (text == "20")
+        {
+            Voices20Container.SetActive(true);
+        }
+        else if (text == "12")
+        {
+            Voices12Container.SetActive(true);
+        }
+        else if (text == "6")
+        {
+            Voices6Container.SetActive(true);
+        }
     }
 
     public void SetVoice(Text text)
