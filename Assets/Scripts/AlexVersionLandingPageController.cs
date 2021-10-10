@@ -266,6 +266,10 @@ public class AlexVersionLandingPageController : MonoBehaviour
         }
     }
 
+    public void Call12MonthContent(int value) {
+        
+    }
+
     public void SetVoice(Text text)
     {
         string[] voiceId = text.text.Split(' ');
