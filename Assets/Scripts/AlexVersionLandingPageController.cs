@@ -34,6 +34,11 @@ public class AlexVersionLandingPageController : MonoBehaviour
 
     public Toggle QualityToggle;
 
+    public List<GameObject> LongMonthPrefabs = new List<GameObject>();
+    public Transform LongMonthPrefabsContainer;
+    public Transform LongMonthPrefabsContainer2;
+    public Transform LongMonthCategories;
+
     [Header("Email Part")]
     public Button CloseBtn;
     public Button SendBtn;
@@ -267,7 +272,15 @@ public class AlexVersionLandingPageController : MonoBehaviour
     }
 
     public void Call12MonthContent(int value) {
-        
+        LongMonthPrefabsContainer2.gameObject.SetActive(true);
+        LongMonthCategories.gameObject.SetActive(false);
+        foreach (Transform item in LongMonthPrefabsContainer)
+        {
+            Destroy(item.gameObject);
+        }
+
+
+        var newContent = Instantiate(LongMonthPrefabs[value-1], LongMonthPrefabsContainer);
     }
 
     public void SetVoice(Text text)
